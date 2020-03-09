@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+
+            var recebe = prompt("Soma");
+            var num1 = parseInt(prompt("Digite o Primeiro Número:"));
+            var num2 = parseInt(prompt("Digite o Segundo Número:"));
+
+
+            switch (recebe) {
+                case "somar":
+                    var soma = num1 + num2
+
+                    alert("Soma dos Numeros" +soma)
+                    break;
+                case "subtrair":
+                    var sub = num1 - num2
+
+                    alert("Subtração dos Numeros" +sub)
+                    break;
+                case "multiplicar":
+                    var multi = num1 * num2
+
+                    alert("Multiplicar os numeros" +multi)
+                    break;
+                case "dividir":
+                    var div = num1 / num2
+
+                    alert("Dividir os numeros" +div)
+                    break;
+                default :
+                    alert("Não digitou")
+            }
+
+        </script>
+    </body>
+</html>
